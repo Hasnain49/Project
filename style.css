@@ -8,9 +8,14 @@
     font-family: "Urbanist", sans-serif;
 }
 
+body{
+    font-family: "Urbanist";
+}
+
 .max-width-1440{
     max-width: 1440px;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 #active{
@@ -166,6 +171,8 @@
     align-items: center;
     justify-content: center;
     gap: 90px;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .section2-card{
@@ -177,6 +184,7 @@
     box-shadow: 0px 20px 95px 0px #C9CBCC4D;
     border-radius: 10px;
     height: 381px;
+    position: relative;
 }
 
 .section2-card-head{
@@ -197,4 +205,105 @@
     margin-top: 10px;
     margin-bottom: 33px;
     color: #00000099;
+}
+
+.read-more{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: #1587ED;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.section3{
+    background: #FFFFFF;
+}
+
+.section3-inner{
+    padding: 50px 20px 70px 20px;
+    max-width: 1136px;
+    margin: 0 auto;
+}
+
+.section3-head{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 44px;
+    color: #000000B2;
+
+}
+.section3-para{
+    font-family: "Urbanist";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 65px;
+    color: #00000099;
+
+}
+
+.section3-content{
+    display: flex;
+}
+
+.sec3-img-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    
+}
+
+.sec3-content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+/* .sec3-img-content img{
+    border: 1px solid red;
+} */
+
+.sec3-h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000B2;
+    margin-bottom: 5px;
+}
+.sec3-paragraph{
+    font-family: "Urbanist";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00000099;
+    
+}
+
+#sec3-paragraph1{
+    max-width: 500px;
+    /* border: 1px solid; */
+}
+#sec3-paragraph2{
+    max-width: 400px;
+    margin-bottom: 16px;
+    /* border: 1px solid; */
+}
+
+.sec3-content-right{
+    transform: translateY(-15px);
+    max-width: 349px;
+    max-height: 512px;
+}
+
+.sec3-content-right img{
+    /* border: 1px solid; */
+    width: 100%;
 }
