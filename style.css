@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: "Urbanist";
+    font-family: "Urbanist", sans-serif;
 }
 
 .max-width-1440{
@@ -307,3 +307,63 @@ body{
     /* border: 1px solid; */
     width: 100%;
 }
+
+.section4{
+    background: #1587ED08;
+}
+
+.sec4-inner{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 110px 20px;
+}
+
+.sec4-heading{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.sec4-para{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #00000099;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.sec4-card{
+    width: 320px;
+    height: 277px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    box-shadow: 0px 20px 95px 0px #C9CBCC4D;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec4-card-read-more{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    /* font-family: "Urbanist"; */
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #00000080;
+
+}
+
+.sec4-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
